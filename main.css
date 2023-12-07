@@ -103,38 +103,72 @@ h6 {
 }
 
 .maxin-lox {
-color:#2B7FFF;
+    color: #2B7FFF;
 }
-.pbox{
-position:relative;
-width: Hug (709px);
-height: Hug (456px);
-top: 600px;
-left: 0px;
-gap: 40px;
+
+.pbox {
+    position: relative;
+    width: Hug (709px);
+    height: Hug (456px);
+    top: 600px;
+    left: 0px;
+    gap: 40px;
 }
-.p1{
-width: 709px;
-height: 76px;
-font-family: Roboto;
-font-size: 22px;
-font-weight: 400;
-line-height: 38px;
-letter-spacing: 0em;
-text-align: left;
-color:#011C44;
+
+.p1 {
+    width: 709px;
+    height: 76px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #011C44;
 }
-.p2{
-position:absolute;
-width: 709px;
-height: 152px;
-font-family: 'Roboto';
-font-size: 22px;
-line-height: 38px;
-letter-spacing: 0em;
-text-align: left;
-top:300px;
+
+.p2 {
+    position: absolute;
+    width: 709px;
+    height: 152px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 300px;
 }
-.denisloh{
+
+.denisloh {
     font-weight: 600;
+}
+
+.nav-link {
+    color: #011C44;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.nav-list:hover .nav-link {
+    color: #2B7FFF;
+    font-weight: 700;
+}
+
+.header-social-network-item {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item {
+    display: flex;
+    gap: 56px;
+}
+
+.haeder-content {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
